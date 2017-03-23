@@ -1,0 +1,246 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{polski}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[top=2cm, bottom=2cm, left=3cm, right=3cm]{geometry}
+\usepackage{indentfirst}
+\usepackage{enumerate}
+\usepackage{graphicx}
+
+\makeatletter
+\newcommand{\linia}{\rule{\linewidth}{0.4mm}}
+\renewcommand{\maketitle}{\begin{titlepage}  
+    \vspace*{1cm}
+    \begin{center}
+  Roboty mobilne - projekt
+    \end{center}
+      \vspace{3cm}
+    \begin{center}
+     \LARGE \textsc {\@title}
+         \end{center}
+     \vspace{1cm}
+    
+    \begin{center}
+    \textit{ Autorzy:}\\
+   \textit{\@author} 
+     \end{center}
+      \vspace{1cm}
+     
+     \begin{center}
+    Termin zajęć :
+    czwartek godz. 7:30
+    
+    Prowadzący:
+  Mateusz Cholewiński %dorobić inż mgr itd
+    \end{center}
+    
+    \vspace*{\stretch{6}}
+    \begin{center}
+    \@date
+    \end{center}
+  \end{titlepage}
+}
+\makeatother
+\author{Beata Berajter 218629\\
+Ada Weiss 218641}%wpisać indeks
+\title{Line follower}
+
+
+\begin{document}
+\newpage
+\maketitle
+\newpage
+\tableofcontents
+%\newpage               streszczenie
+%\begin{center} 
+%	 \textsc{\LARGE \abstractname{}}
+%\end{center}
+%\vspace{0.5cm}
+
+\newpage
+\section{Opis projektu}
+Założeniem projektu jest wykonanie robota typu line follower. Robot tego typu powinien poruszać się za linią narysowaną na podłodze.  Tworzenia robota od podstaw ma na celu naukę projektowania, wykonania oraz zaprogramowania urządzenia z mikrokontrolerem.
+
+Grupę projektową stanowią osoby wymienione jako autorzy tj. Beata Berajter oraz Ada Weiss.
+Projekt powinien zostać zrealizowany w ciągu około 3 miesięcy.
+\section{Plan pracy}
+\begin{enumerate}
+\item Schemat: rozrysowanie połączeń
+	\begin{itemize}
+	\item zasilanie
+	\item mikrokontroler
+	\item stabilizator
+	\item czujniki - transoptor odbiciowy %enkoder
+	\item mostek H
+	\item programator
+	\item bluetooth
+	\end{itemize}
+\item Płytka: narysowanie płytki gotowej do wydruku
+\item Zebranie/zakupienie wszystkich części składowych
+\item Wydrukowanie płytki
+\item Złożenie robota
+	\begin{itemize}
+	\item lutowanie części do płytki
+	\item przyłączenie pozostałych elementów (np. koła)
+	\end{itemize}
+\item Oprogramowanie
+	\begin{itemize}
+	\item regulacja PID
+	\item podłączenie czujników, czytanie informacji jakie przekazują i wysłanie ich do mikrokontrolera
+	\end{itemize}
+\item Testowanie
+\item Sporządzenie raportu  końcowego
+
+\end{enumerate}
+
+\section{Przewidywane etapy oraz terminy prac nad projektem}
+\begin{enumerate}%co tu powinno być? ile tych spotkań??????????????????????
+
+
+\item Założenia projektowe\\
+Data:  23.03. 2017 r.\\
+Przedstawienie założeń projektowych w formie dokumentu elektronicznego (PDF).
+\item Pierwsze spotkanie kontrolne\\
+Data: 20.04 - 2017 r.\\
+Raport ze zrealizowanych prac. % tu chyba co powinnyśmy mieć już gotowe
+
+\item Drugie spotkanie kontrolne\\
+Data: 18.05.2017 r.\\
+Raport drugi
+\item Raport końcowy\\
+Data: 08.06.2017 r.\\
+Oddanie całego projektu wraz z końcowym sprawozdaniem
+
+\end{enumerate}
+
+\documentclass[a4paper,12pt]{article}
+\usepackage{polski}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[top=2cm, bottom=2cm, left=3cm, right=3cm]{geometry}
+\usepackage{indentfirst}
+\usepackage{enumerate}
+\usepackage{graphicx}
+
+\makeatletter
+\newcommand{\linia}{\rule{\linewidth}{0.4mm}}
+\renewcommand{\maketitle}{\begin{titlepage}  
+    \vspace*{1cm}
+    \begin{center}
+  Roboty mobilne - projekt
+    \end{center}
+      \vspace{3cm}
+    \begin{center}
+     \LARGE \textsc {\@title}
+         \end{center}
+     \vspace{1cm}
+    
+    \begin{center}
+    \textit{ Autorzy:}\\
+   \textit{\@author} 
+     \end{center}
+      \vspace{1cm}
+     
+     \begin{center}
+    Termin zajęć :
+    czwartek godz. 7:30
+    
+    Prowadzący:
+  Mateusz Cholewiński %dorobić inż mgr itd
+    \end{center}
+    
+    \vspace*{\stretch{6}}
+    \begin{center}
+    \@date
+    \end{center}
+  \end{titlepage}
+}
+\makeatother
+\author{Beata Berajter 218629\\
+Ada Weiss 218641}%wpisać indeks
+\title{Line follower}
+
+
+\begin{document}
+\newpage
+\maketitle
+\newpage
+\tableofcontents
+%\newpage               streszczenie
+%\begin{center} 
+%	 \textsc{\LARGE \abstractname{}}
+%\end{center}
+%\vspace{0.5cm}
+
+\newpage
+\section{Opis projektu}
+Założeniem projektu jest wykonanie robota typu line follower. Robot tego typu powinien poruszać się za linią narysowaną na podłodze.  Tworzenia robota od podstaw ma na celu naukę projektowania, wykonania oraz zaprogramowania urządzenia z mikrokontrolerem.
+
+Grupę projektową stanowią osoby wymienione jako autorzy tj. Beata Berajter oraz Ada Weiss.
+Projekt powinien zostać zrealizowany w ciągu około 3 miesięcy.
+\section{Plan pracy}
+\begin{enumerate}
+\item Schemat: rozrysowanie połączeń
+	\begin{itemize}
+	\item zasilanie
+	\item mikrokontroler
+	\item stabilizator
+	\item czujniki - transoptor odbiciowy %enkoder
+	\item mostek H
+	\item programator
+	\item bluetooth
+	\end{itemize}
+\item Płytka: narysowanie płytki gotowej do wydruku
+\item Zebranie/zakupienie wszystkich części składowych
+\item Wydrukowanie płytki
+\item Złożenie robota
+	\begin{itemize}
+	\item lutowanie części do płytki
+	\item przyłączenie pozostałych elementów (np. koła)
+	\end{itemize}
+\item Oprogramowanie
+	\begin{itemize}
+	\item regulacja PID
+	\item podłączenie czujników, czytanie informacji jakie przekazują i wysłanie ich do mikrokontrolera
+	\end{itemize}
+\item Testowanie
+\item Sporządzenie raportu  końcowego
+
+\end{enumerate}
+
+\section{Przewidywane etapy oraz terminy prac nad projektem}
+\begin{enumerate}%co tu powinno być? ile tych spotkań??????????????????????
+
+
+\item Założenia projektowe\\
+Data:  23.03. 2017 r.\\
+Przedstawienie założeń projektowych w formie dokumentu elektronicznego (PDF).
+\item Pierwsze spotkanie kontrolne\\
+Data: 20.04 - 2017 r.\\
+Raport ze zrealizowanych prac. % tu chyba co powinnyśmy mieć już gotowe
+
+\item Drugie spotkanie kontrolne\\
+Data: 18.05.2017 r.\\
+Raport drugi
+\item Raport końcowy\\
+Data: 08.06.2017 r.\\
+Oddanie całego projektu wraz z końcowym sprawozdaniem
+
+\end{enumerate}
+
+
+
+% a kamienie milowe?
+%\section {Zarządzanie projektem}
+%Projekt zostaje wykonany wspólnie.  podziała zadań???
+
+%tylko żeby wiedzieć jak sie robi :)
+
+%\begin{thebibliography}{99}
+%\bibitem{pa} Kto-pisarz:
+%\emph{germ \TeX},
+%nazwa książki rok wydania i tego typu bzdety np
+%TUGboat Vol.~9,, No.~1 ('88)
+%\end{thebibliography}
+\end{document}
+
